@@ -13,19 +13,11 @@ int main(int argc, const char * argv[]) {
        
         NSArray *charArray = @[@"a", @"b", @"c", @"d", @"e", @"f", @"g", @"h", @"i", @"j", @"k", @"l", @"m", @"n", @"o", @"p", @"q", @"r", @"s", @"t", @"u", @"v", @"w", @"x", @"y", @"z"];
         
-        
-        
         NSString *txtFileContents = [NSString stringWithContentsOfFile:@"/Users/amirsankar/Documents/Breakfast.txt"];
-        
-        
-        
-        // NSLog(@"path is %@",txtFileContents);
-        
-        
+  
         
         NSMutableDictionary *countDictionary = [[NSMutableDictionary alloc]init];
-        
-        
+
         
         for (NSString *letter in charArray) {
             
